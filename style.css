@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 * {
     margin: 0;
     padding: 0;
-    font-family: 'poppins', 'san-serif';
+    font-family: 'lato', 'poppins', 'san-serif';
     box-sizing: border-box;
 }
 a {
@@ -136,7 +137,7 @@ nav {
 .list-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    column-gap: 16px;
+    column-gap: 1rem;
     row-gap: 30px;
     margin-top: 15px;
 }
